@@ -1,0 +1,32 @@
+Student:
+//学生id
+	String stu_id;  0121610880515
+	
+	//学生姓名
+	String stu_name;   陶晓波
+	
+	//学生年级
+	Int stu_grade;  1
+	
+	//学生自然班级id
+	String stu_natural_id;    20190101  2019年入学一年级一班
+	
+	//学生组合班级id
+	String stu_combinnation_id;   2019010101  2019年入学一年级物理一班
+	
+	//学生选课信息
+	String stu_class;  123 物理化学生物
+	
+	//学生性别
+	boolean stu_gendar; true  男生 false 女生
+	
+	//学生联系方式
+	String stu_tele;  13125110952
+  
+   怎么存储学生的选课信息：
+1，  011010（代表化学，生物，政治）
+比如;第一位为物理，第二位为化学，第三位为生物，第四位为历史，第五位为政治，第六位为地理
+2，  123（代表物理化学生物）
+
+怎么生成组合班？
+一个教师可以上n门课程
