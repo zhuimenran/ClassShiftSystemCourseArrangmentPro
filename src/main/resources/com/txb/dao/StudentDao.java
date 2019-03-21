@@ -71,11 +71,11 @@ public class StudentDao {
 		this.stu_name = stu_name;
 	}
 
-	public Integer getStu_grade() {
+	public Int getStu_grade() {
 		return stu_grade;
 	}
 
-	public void setStu_grade(Integer stu_grade) {
+	public void setStu_grade(Int stu_grade) {
 		this.stu_grade = stu_grade;
 	}
 
