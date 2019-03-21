@@ -14,7 +14,7 @@ public class StudentDao {
 	String stu_name;
 	
 	//学生年级
-	Int stu_grade;
+	int stu_grade;
 	
 	//学生自然班级id
 	String stu_natural_id;
@@ -71,11 +71,11 @@ public class StudentDao {
 		this.stu_name = stu_name;
 	}
 
-	public Int getStu_grade() {
+	public int getStu_grade() {
 		return stu_grade;
 	}
 
-	public void setStu_grade(Int stu_grade) {
+	public void setStu_grade(int stu_grade) {
 		this.stu_grade = stu_grade;
 	}
 
